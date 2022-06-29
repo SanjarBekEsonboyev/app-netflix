@@ -1,0 +1,148 @@
+//----------------Background image Style
+
+.background_img {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ebff1e0f-5704-423f-b4c6-94914dabe25b/97b981e7-fcb7-408a-894a-c49e4c7ef908/UZ-ru-20220509-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+
+
+  .back_opacity{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .7))), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), -webkit-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+  }
+
+  //------------------ Header Style
+
+  .navbar {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 100px;
+    z-index: 99 !important;
+
+    .navbar_row {
+      width: 90%;
+      height: 100px;
+      margin: 0 auto;
+      z-index: 99 !important;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .navbar-brand {
+        img {
+          width: 200px;
+        }
+      }
+
+      .btn {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .text {
+    z-index: 99 !important;
+    display: flex;
+    justify-content: center;
+
+    h4 {
+      color: #fff;
+      z-index: 99 !important;
+      font-size: 1.62rem;
+      font-weight: 400;
+    }
+
+    h1 {
+      color: #fff;
+      z-index: 99 !important;
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .sign-up {
+      width: 300px;
+      height: 80px;
+      font-size: 1.82rem;
+      z-index: 99 !important;
+      margin-top: 30px;
+    }
+  }
+}
+
+
+//--------Main Style
+
+
+
+.col-6{
+  height: 420px;
+  h1{
+    margin-top: 140px;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+  }
+
+  p{
+    color: white;
+    font-size: 25px;
+  }
+}
+
+.col-6{
+video{
+position: relative;
+left: 71px;
+  bottom: 320px;
+  width: 73%;
+
+}
+  img{
+    width: 100%;
+
+  }
+}
+
+
+
+//-------------
+
+.end{
+  .col-6{
+    width: 100%;
+    img{
+      width: 100% ;
+    }
+    h1{
+      font-size: 50px;
+    }
+
+  }
+}
+
+.futer{
+  margin-top: 30px;
+
+  button{
+    padding: 15px 20px;
+    font-size: 30px;
+  }
+}
+//----------------
+
+
+
+
+
+

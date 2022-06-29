@@ -1,0 +1,28 @@
+.container-fluid{
+  background-color: black;
+  .row{
+    .col-9{
+      p{
+        color: gray;
+      }
+      ul{
+        text-decoration: none;
+      }
+      a{
+        font-family: sans-serif;
+        color: gray;
+        font-size: 13px;
+        line-height: 2.3;
+      }
+      .row{
+        .col-12{
+          margin-top: 18px;
+          margin-bottom: 18px;
+          a{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
